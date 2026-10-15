@@ -128,16 +128,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 973551608}
     m_Modifications:
     - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.14
+      value: 0.13999939
       objectReference: {fileID: 0}
     - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.28
+      value: -0.27999997
       objectReference: {fileID: 0}
     - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.83
+      value: 10.830002
       objectReference: {fileID: 0}
     - target: {fileID: 4525126400503843821, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -170,6 +182,10 @@ PrefabInstance:
     - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_Name
       value: My_Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -375,6 +391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My_Collectible (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -431,6 +451,10 @@ PrefabInstance:
     - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_Name
       value: My_Collectible (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -641,6 +665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My_Collectible (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -697,6 +725,10 @@ PrefabInstance:
     - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_Name
       value: My_Collectible (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -764,6 +796,10 @@ PrefabInstance:
     - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_Name
       value: My_Collectible (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1094,6 +1130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My_Collectible (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1231,8 +1271,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1633505979}
   - {fileID: 521412976}
+  - {fileID: 1633505979}
   - {fileID: 1053963290}
   - {fileID: 1323983270}
   - {fileID: 1381681416}
@@ -1571,6 +1611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My_Collectible (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1627,6 +1671,10 @@ PrefabInstance:
     - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_Name
       value: My_Collectible (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1694,6 +1742,10 @@ PrefabInstance:
     - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
       propertyPath: m_Name
       value: My_Collectible (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404811917505220361, guid: cd42eef38b7514f3ab9bf6e5a4b9b87f, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
